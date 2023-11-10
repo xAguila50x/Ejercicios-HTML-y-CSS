@@ -1,0 +1,68 @@
+/* Ejercicio */
+		/* Agregar las reglas de CSS necesarios para que los estilos de la página queden iguales al resultado (Ejercicio2.png). */
+		/* Pista 1: Los bordes se tienen que agregar a cada fila y 
+		columna de la tabla para que aparezcan correctos.*/
+		/* Pista 2: Los colores utilizados son los siguientes: 
+		teal, red, orange, blue, purple y green. Utilizalos en los 
+		diferentes elementos hasta que encuentres que color corresponde 
+		a cada regla*/
+
+#titulo{
+	color: teal;
+}
+
+#subtitulo{
+	color: blue;
+}
+
+.destacado{
+	color: orange;
+}
+
+.especial{
+	color: orange;
+}
+
+.especial2{
+	color: red;
+}
+
+a {
+	color: red;
+}
+
+em {
+	color: blue;
+}
+
+span{
+	color: purple;
+}
+
+td {
+	color: green;
+}
+
+caption{
+	color: blue;
+}
+
+strong{
+	color: orange;
+}
+
+#rojo{
+	color: red;
+}
+/*Tabla*/
+.styled-table {
+    border-collapse: collapse;
+    width: 40%;
+}
+
+.styled-table th, 
+.styled-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}

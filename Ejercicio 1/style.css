@@ -1,0 +1,41 @@
+/* Ejercicio */
+		/* Agregar los selectores de CSS necesarios para que los estilos de la página queden iguales al resultado (Ejercicio1.png). Cada regla de CSS tiene un comentario explicando a que elementos debe aplicarse la regla.*/
+		
+		/* Todos los elementos de la página */
+.fuente {
+    font-size: 20px;
+}
+
+/* Todos los párrafos (<p>) de la página */
+#colorP {
+    color: #444;
+}
+
+/* Todos los párrafos que se encuentren dentro del elemento con id "contenedor" */
+#contenedor { 
+	color: #447799; 
+}
+
+/* Todos los párrafos que se encuentren dentro del elemento con id "contenedor" */
+#contenedor em{
+    background: #FFFF00;
+    padding: .1em;
+}
+
+/* Todos los enlaces de la página */
+a {
+    color: #CC3311;
+}
+
+/* Todos los elementos "em" que tengan la clase "resaltado" en toda la página */
+em.resaltado {
+    background: #FFCC66;
+    border: 1px solid #FF9955;
+    padding: 5px;
+}
+
+
+/* Elementos "span" que se encuentren dentro de un elemento con la clase "normal" */
+.normal span {
+    font-weight: bold;
+}
