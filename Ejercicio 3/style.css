@@ -8,21 +8,27 @@
 		del mouse. Estos estilos se deben replicar en todas 
 		las casillas de la tabla.*/
 
+h1 {
+    background: linear-gradient(100deg, red, blue, green);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 /* Definición de colores */
 .coloramarillo {
-    background-color: yellow;
+    color: yellow;
 }
 
 .colorverde {
-    background-color: green;
+    color: green;
 }
 
 .colorazul {
-    background-color: blue;
+    color: blue;
 }
 
 .colorrojo {
-    background-color: red;
+    color: red;
 }
 
 /* Estilo de la tabla */
@@ -47,22 +53,22 @@
 }
 
 /* Efecto al pasar el mouse sobre las celdas */
-.styled-table td:hover {
-    transition: background-color 0.3s; /* Efecto de transición */
-}
-
-.styled-table .coloramarillo td:hover {
+.styled-table .coloramarillo:hover {
     background-color: yellow; /* Color de fondo al pasar el mouse */
+    color: black; /* Cambio de color de texto */
 }
 
-.styled-table .colorverde td:hover {
+.styled-table .colorverde:hover {
     background-color: green; /* Color de fondo al pasar el mouse */
+    color: black; /* Cambio de color de texto */
 }
 
-.styled-table .colorazul td:hover {
+.styled-table .colorazul:hover {
     background-color: blue; /* Color de fondo al pasar el mouse */
+    color: white; /* Cambio de color de texto */
 }
 
-.styled-table .colorrojo td:hover {
+.styled-table .colorrojo:hover {
     background-color: red; /* Color de fondo al pasar el mouse */
+    color: white; /* Cambio de color de texto */
 }
